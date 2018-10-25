@@ -1,0 +1,17 @@
+Package: OfficeTools
+Type: Package
+Title: Office File Tools for R
+Version: 0.0.5
+Date: 2016-11-01
+Authors@R: c(person("Tommi", "Kauko", role = c("aut", "cre"), email = "tommi.kauko@gmail.com"))
+Author: Tommi Kauko [aut, cre]
+Maintainer: Tommi Kauko <tommi.kauko@gmail.com>
+Description: Parsing tables from Word files to R objects or Excel files
+Depends:
+    R (>= 3.3.1),
+    sas7bdat,
+    xlsx,
+    xml2,
+    docxtractr
+License: GPL (>= 2)
+RoxygenNote: 5.0.1
